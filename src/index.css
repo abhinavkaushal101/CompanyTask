@@ -17,6 +17,10 @@ body{
   /* background: #f9fafb; */
   
 }
+@media (max-width: 768px) {
+  .stack-wrapper {
+    min-height: 320vh;
+  }}
 
 /* Sticky container */
 .CardFolding {
