@@ -15,7 +15,6 @@ const Hero = () => {
         }}
         className="h-screen fixed w-screen z-[-10]"
       >
-        <div className="h-100vh">as</div>
         <div className="relative flex justify-center px-2 text-center mt-[6%] items-center h-screen ">
 
           <div className="absolute md:left-[11%] md:top-[27%] top-[20%] left-[15%] w-20 rounded-full">
