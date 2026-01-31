@@ -8,28 +8,31 @@ const Hero = () => {
       <div
         style={{
           background:
-            "url('https://theme.madsparrow.me/most/wp-content/uploads/2022/10/most_slide_3.jpg')",
+            "url('hero.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
         className="h-screen fixed w-screen z-[-10]"
       >
-        <div className="relative flex justify-center px-2 text-center mt-[6%] items-center h-screen md:text-6xl">
+        <div className="relative flex justify-center px-2 text-center mt-[6%] items-center h-screen ">
            {/* Background Accent */}
       <div className="absolute -top-10 -left-32 w-96 h-96 bg-primary/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 -right-32 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"></div>
 
-          <div className="absolute left-[11%] top-[29%] w-20 rounded-full">
+          <div className="absolute md:left-[11%] md:top-[27%] top-[20%] left-[15%] w-20 rounded-full">
             <img
               className=" w-[50%] object-contain"
               src="https://theme.madsparrow.me/most/wp-content/uploads/2022/09/most_logo2_light.svg"
               alt=""
             />
           </div>
-          <div className="text-white">
+          <div className="text-white md:text-6xl text-5xl">
           <h1>We a graphic design agency forvisually compelling stories.​</h1>
-          <button className="text-sm">Lets Talk</button>
+         <button className="mt-8 px-6 py-3 text-sm sm:text-base 
+            bg-white text-black rounded-full hover:bg-opacity-90 transition">
+            Let’s Talk
+          </button>
           </div>
 
         </div>
