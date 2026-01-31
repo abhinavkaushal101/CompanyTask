@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+
+
+body{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stack-wrapper {
+  min-height: 250vh; /* Enables scroll */
+  /* background: #f9fafb; */
+  
+}
+
+/* Sticky container */
+.CardFolding {
+  position: sticky;
+  top: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Actual card */
+.card {
+  width: 100%;
+  /* height: 320px; */
+  /* height:100%; */
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 5%;
+  /* color: white; */
+  display: flex;
+  /* top: 100vh; */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+}
